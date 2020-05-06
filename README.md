@@ -9,6 +9,6 @@ Running
 1. docker run -i -t php-proxy
 
 
-## Get From Docker
-#docker pull mapguysolutions/php-proxy-docker
-#https://hub.docker.com/r/mapguysolutions/php-proxy-docker
+## Get From Docker (Simple And Easy)
+docker pull mapguysolutions/php-proxy-docker\
+https://hub.docker.com/r/mapguysolutions/php-proxy-docker
