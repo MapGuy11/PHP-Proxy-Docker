@@ -10,5 +10,5 @@ Running
 
 
 # Get From Docker (Simple And Easy)
-## docker pull mapguysolutions/php-proxy-docker
-## https://hub.docker.com/r/mapguysolutions/php-proxy-docker
+docker pull mapguysolutions/php-proxy-docker
+https://hub.docker.com/r/mapguysolutions/php-proxy-docker
