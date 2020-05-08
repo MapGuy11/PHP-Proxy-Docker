@@ -1,4 +1,4 @@
-FROM husion/baseimage
+FROM phusion/baseimage
 
 MAINTAINER Yanek Goodman <yanekgoodman@protonmail.com>
 
