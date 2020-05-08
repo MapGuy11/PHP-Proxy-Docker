@@ -12,3 +12,10 @@ Running
 # Get From Docker Hub (Simple And Easy)
 docker pull mapguysolutions/php-proxy-docker\
 https://hub.docker.com/r/mapguysolutions/php-proxy-docker
+
+# Parameters
+
+Ports | Reason | Options
+--- | --- | ---
+80 | HTTP Traffic| **Can Be Mapped Differently**
+443 | HTTPS Traffic| **Can Be Mapped Differently**
