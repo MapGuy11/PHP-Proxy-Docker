@@ -13,7 +13,7 @@ Running
 docker pull mapguysolutions/php-proxy-docker\
 https://hub.docker.com/r/mapguysolutions/php-proxy-docker
 
-# Parameters
+# Ports
 
 Ports | Reason | Options
 --- | --- | ---
