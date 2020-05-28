@@ -1,4 +1,4 @@
-FROM phusion/baseimage
+FROM ubuntu:20.04
 
 MAINTAINER Yanek Goodman <yanekgoodman@protonmail.com>
 
