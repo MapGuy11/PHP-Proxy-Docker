@@ -1,6 +1,7 @@
 FROM ubuntu:20.04
 
 MAINTAINER Yanek Goodman <yanekgoodman@protonmail.com>
+LABEL This Docker Is Tested On Ubuntu 16.04,18.04,14.04,20.04 But Should Work On Others!
 
 ENV TZ America/New_York
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
