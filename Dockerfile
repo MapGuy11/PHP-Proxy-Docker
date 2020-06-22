@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 MAINTAINER Yanek Goodman <yanekgoodman@protonmail.com>
-LABEL This Docker Is Tested On Ubuntu 16.04,18.04,14.04,20.04 But Should Work On Others!
+LABEL This Docker Is Tested On Ubuntu 16.04,18.04,20.04 But Should Work On Others!
 
 ENV TZ America/New_York
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
@@ -29,3 +29,4 @@ CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
 RUN rm -rf /var/www/html/*
 RUN composer create-project athlon1600/php-proxy-app:dev-master /var/www/html
 RUN chown -R www-data:www-data /var/www/html
+LABEL Give About 30sec Before Acessing Webpage
